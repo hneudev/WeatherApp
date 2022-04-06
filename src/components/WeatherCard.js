@@ -4,7 +4,6 @@ import './WeatherCard.css'
 const Weather = ({icon, city, country, temp, weatherDescription, humidity, clouds, wind}) => {
     
     
-    // Estado para el cambio de grados
 
     const [fahrenheit, setFahrenheit] = useState(0)
 
