@@ -33,6 +33,10 @@ function WeatherInfo() {
         setWind(res.data.wind.speed)
         setLoading(false);
       })
+      .catch(function(error) {
+
+        alert("The error is handled, continue normally");
+      })
     })  
   }, [])
 
